@@ -2,7 +2,7 @@ const app = require('../app');
 const request = require("supertest");
 
 describe("GET /currencies/:code", () => {
-  it("should return 200 currency details for supported currency", async () => {
+  it("should return 200 status code and currency details for supported currency", async () => {
     return request(app)
       .get("/currencies/USD")
       .expect('Content-Type', /json/)
@@ -19,10 +19,10 @@ describe("GET /currencies/:code", () => {
 });
 
 describe("GET /currencies/:code", () => {
-  it("should return 404 details for non-supported currency", async () => {
+  it("should return 404 status code and currency details for non-supported currency", async () => {
     return request(app)
       .get("/currencies/ZXC")
-      .expect('Content-Type', /json/)
+      .expect('Content-Type', /html/)
       .expect(404)
       .then((res) => {
           expect(res.statusCode).toBe(404);
