@@ -1,4 +1,4 @@
-const data = require('../mockData.json');
+const data = require('../model/mockData.json');
 
 const currencies = ( req, res ) => {
   res.json( data.map( d => d.code ) )
