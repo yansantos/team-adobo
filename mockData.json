@@ -1,0 +1,14 @@
+{
+  "currencies": [
+    {
+      "name": "US Dollar",
+      "symbol": "$",
+      "code": "USD"
+    },
+    {
+      "name": "Australlian Dollar",
+      "symbol": "A$",
+      "code": "AUD"
+    }
+  ]
+}
