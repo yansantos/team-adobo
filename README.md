@@ -9,7 +9,7 @@
 
 ## Action Plan
 
-i. Node, ExpressJS, Jest, Postman
+i. Node, ExpressJS, Jest/Supertest, Postman, Docker
 
 ii. Share Repo, individual contribution according to task breakdown
 
