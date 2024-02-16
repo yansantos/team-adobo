@@ -16,26 +16,27 @@ ii. Share Repo, individual contribution according to task breakdown
 iii. Tasks
   1. Create repo, upload initial project
 
-  2. Test scenario creation
-    2.1 /currencies endpoint
-      request validation
-      logic test
-      response validation
+  2. Test scenario creation <br/>
+     2.1 /currencies endpoint <br/>
+       - request validation <br/>
+       - logic test <br/>
+       - response validation <br/>
 
-    2.2 /currencies{code} endpoint
-      request validation
-      logic test
-      response validation
+     2.2 /currencies{code} endpoint <br/>
+       - request validation
+       - logic test
+       - response validation
 
-  3. Implementation
-    3.1 /currencies endpoint
-      request
-      logic
-      response
-    3.2 /currencies endpoint
-      request
-      logic test
-      response
+  3. Implementation <br/>
+     3.1 /currencies endpoint <br/>
+       - request <br/>
+       - logic <br/>
+       - response <br/>
+      
+     3.2 /currencies endpoint <br/>
+       - request <br/>
+       - logic test <br/>
+       - response <br/>
 
   4. Run unit test
 
