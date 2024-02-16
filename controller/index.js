@@ -1,7 +1,7 @@
 const data = require('../mockData.json');
 
 const currencies = ( req, res ) => {
-  res.json( 'currencies endpoint' )
+  res.json( data )
 }
 
 const currency = ( req, res ) => {
