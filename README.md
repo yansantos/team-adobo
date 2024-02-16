@@ -27,7 +27,7 @@ iii. Tasks
        - response validation
 
   3. Implementation <br/>
-     3.1 /currencies endpoint <br/>
+     3.1 /currencies{code} endpoint <br/>
        - request <br/>
        - logic <br/>
        - response <br/>
