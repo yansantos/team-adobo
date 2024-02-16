@@ -5,7 +5,6 @@
  - [Yan Santos](https://github.com/yansantos)
  - [Mikko Penuela](https://github.com/mikkopen)
  - [Neil Joshua Gatmaitan](https://github.com/njgpepperstone)
- - [Harris Pe](https://github.com/jharrispe)
 
 ## Action Plan
 
@@ -50,7 +49,7 @@ Access via 127.0.0.1:3000, run the following
   # Start server
   make start
   # Stop server
-  make top
+  make stop
   # Restart server
   make restart
   # Login to server
