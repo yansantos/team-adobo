@@ -6,7 +6,7 @@
  - [Mikko Penuela](https://github.com/mikkopen)
  - [Neil Joshua Gatmaitan](https://github.com/njgpepperstone)
  - [Harris Pe](https://github.com/jharrispe)
- 
+
 ## Action Plan
 
 i. Node, ExpressJS, Jest, Postman
@@ -40,3 +40,16 @@ iii. Tasks
   4. Run unit test
 
   5. Postman testing
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  # Start server
+  make start
+  # Stop server
+  make top
+  # Restart server
+  make restart
+```
