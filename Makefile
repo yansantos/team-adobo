@@ -8,6 +8,8 @@ stop:
 
 ## Restart
 restart:
-	docker-compose down
-	sleep 2
-	docker-compose up --build -d
+	docker-compose restart
+
+## Login to docker container
+sh:
+	docker exec -it adobo sh

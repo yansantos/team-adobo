@@ -41,9 +41,9 @@ iii. Tasks
 
   5. Postman testing
 
-## Deployment
+## Local Development
 
-To deploy this project run
+Access via 127.0.0.1:3000, run the following
 
 ```bash
   # Start server
@@ -52,4 +52,6 @@ To deploy this project run
   make top
   # Restart server
   make restart
+  # Login to server
+  make sh
 ```
