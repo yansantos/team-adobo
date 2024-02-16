@@ -3,8 +3,6 @@ name: Node.js CI
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
@@ -13,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [17.x]
 
     steps:
     - name: Checkout code
@@ -26,7 +24,7 @@ jobs:
         cache: 'npm' 
 
     - name: Install Node.js dependencies
-      run: npm ci
+      run: npm i
 
     - name: Run tests
       run: npm test
