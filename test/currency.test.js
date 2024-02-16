@@ -8,7 +8,6 @@ describe("GET /currencies/:code", () => {
       .expect('Content-Type', /json/)
       .expect(200)
       .then((res) => {
-        console.log(res);
           expect(res.statusCode).toBe(200);
           expect(res.body).toStrictEqual({
             name: 'US Dollar',
