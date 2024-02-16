@@ -29,3 +29,16 @@ describe("GET /currencies/:code", () => {
       });
   });
 });
+
+describe("GET /currencies", () => {
+  it("should return 200 currency list", async () => {
+    return request(app)
+      .get("/currencies")
+      .expect('Content-Type', /json/)
+      .expect(200)
+      .then((res) => {
+          expect(res.statusCode).toBe(200);
+          expect(res.body).toStrictEqual(['USD', 'AUD']);
+      });
+  });
+});
